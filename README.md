@@ -28,3 +28,23 @@ New-ADUser -Name "User2" `
   -Path "OU=Test,DC=Local,DC=qhamaninanderebe,DC=com"
 
 Get-ADUser -Identity "User2" -Properties *
+
+
+🖼️ Screenshot Example
+The following output shows the created AD user object and its key attributes:
+
+
+💬 Notes
+These scripts are tested on Windows Server 2022 with RSAT tools enabled.
+
+Intended for lab use only.
+
+You can build on this lab by:
+
+Automating group creation
+
+Adding email attributes
+
+Managing accounts in bulk with CSV input
+
+
